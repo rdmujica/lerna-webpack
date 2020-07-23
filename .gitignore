@@ -1,7 +1,26 @@
-**/node_modules/
+
 .DS_Store
+
 **/dist/
+
 **/bin/
-**/lib/
-*.bkp
+
+# IDE
+.vscode/
+
+# Lerna
+packages/**/lib/
+
+# Logs
+logs/
 *.log
+
+# Node
+node_modules/
+.npmrc
+
+# OS
+.DS_STORE
+
+# Match Image Snapshot
+**/__diff_output__/

@@ -16,10 +16,11 @@
   "files": [
     "lib"
   ],
-  "scripts": {
-    "building": "webpack --mode production"
-  },
   "dependencies": {
     "spinner3000": "latest"
+  },
+  "scripts": {
+    "clear:build": "if [ -d ./lib ]; then rm -Rf ./lib; fi",
+    "build": "npm run clear:build && webpack --mode production"
   }
 }

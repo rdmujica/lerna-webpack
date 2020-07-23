@@ -1,9 +1,11 @@
 {
-  "name": "spinner3000",
+  "name": "components3000",
   "version": "1.0.2",
-  "description": "Spinner using lerna",
+  "description": "All components3000 ex spinner3000 buttons3000",
   "keywords": [
-    "spinner"
+    "spinner3000",
+    "buttons3000",
+    "components3000"
   ],
   "author": "rdmujica <rdmujica86@gmail.com>",
   "homepage": "",
@@ -16,6 +18,10 @@
   "files": [
     "lib"
   ],
+  "devDependencies": {
+    "buttons3000": "1.0.0",
+    "spinner3000": "1.0.2"
+  },
   "scripts": {
     "clear:build": "if [ -d ./lib ]; then rm -Rf ./lib; fi",
     "build": "npm run clear:build && webpack --mode production"
