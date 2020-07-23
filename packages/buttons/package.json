@@ -1,5 +1,5 @@
 {
-  "name": "buttons",
+  "name": "buttons3000",
   "version": "1.0.0",
   "description": "All buttons lerna example",
   "keywords": [
@@ -8,7 +8,7 @@
   "author": "rdmujica <rdmujica86@gmail.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/buttons.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"

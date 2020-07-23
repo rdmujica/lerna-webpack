@@ -7,12 +7,14 @@ const config = baseConfig({
   library: `${packageJson.name}`,
 })
 
-const configExport = {
-  ...config,
-  resolve: {
-    extensions: ['.js', '.jsx']
-  },
+const { externals: baseExternal } = config
+
+const externals = {
+  ...baseExternal,
+  spinner3000: 'spinner3000',
 }
 
-console.log(configExport)
-module.exports = configExport
+module.exports = {
+  ...config,
+  externals,
+}
