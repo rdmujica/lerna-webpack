@@ -1,0 +1,25 @@
+{
+  "name": "buttons",
+  "version": "1.0.0",
+  "description": "All buttons lerna example",
+  "keywords": [
+    "button"
+  ],
+  "author": "rdmujica <rdmujica86@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/buttons.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "building": "webpack --mode production"
+  },
+  "dependencies": {
+    "spinner3000": "latest"
+  }
+}
